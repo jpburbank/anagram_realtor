@@ -4,7 +4,7 @@
 This application is an assignment given to myself as part of the hiring process at realtor.com. This version is the first of two asked for. It represents the "quick and dirty" version, as asked for by the given instructions.
 
 ## Requirements
-This was written in Python version 3.9.4. Python version 3.8.0 and higher should also work. No third part libraries where used. It is required that the dictionary file be in the project root. The project will be gzipped with the dictionary file there.
+This was written in Python version 3.9.4. Python version 3.8.0 and higher should also work. No third part libraries where used. It is required that the dictionary file be in the project root. The project will be tarred and gzipped with the dictionary file there.
 
 ## Assumptions
 I have made the assumption that a letter is a letter, regardless if it is upper or lower case. Meaning the word "Bob" is equivalent to the word "bob". 
