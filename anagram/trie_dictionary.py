@@ -6,7 +6,7 @@ root = {}
 class Node:
     def __init__(self):
         self.children = {}
-        self.words = []
+        self.words = set()
 
 class SortedTrie:
     def __init__(self):
@@ -17,10 +17,10 @@ class SortedTrie:
         node = self
         while len(chars):
             node = node.children.setdefault(chars.pop(), Node())
-        node.words.append(word)
+        node.words.add(word)
 
     def find_anagram(self, word):
-        chars = sorted(word)
+        chars = sorted(word.lower())
         node = self
         while len(chars):
             char = chars.pop()
