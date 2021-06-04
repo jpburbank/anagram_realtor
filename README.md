@@ -24,5 +24,8 @@ Search complexity is O(N) where N is the number of characters in a queried words
 ## Concerns
 The major concern with this algorithm is that it requires the whole datastructure to be held in memory, if its to maintain its speed. This could be a concern with very large sized dictionaries.
 
+## Polish
+I wanted to simulate a production application. I add an adhoc language locatization. Its on the niave side, but its a requirement to use any third party libraries. I would also have liked to have the time add unit tests and PnR tests to it as well.
+
 ## Source control
-This assignment can be found as a public repo on Github, with the URL https://github.com/jpburbank/anagram_realtor. This version is the branch first_version. The .git files have been removed from the tarred submission.
+This assignment can be found as a public repo on Github, with the URL https://github.com/jpburbank/anagram_realtor. This version is the branch second_version. The .git files have been removed from the tarred submission.
