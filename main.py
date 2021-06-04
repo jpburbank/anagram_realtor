@@ -30,7 +30,7 @@ def request_anagram_attempt(words):
         end = monotonic_ns()
         if len(found) > 0:
             print(f'{len(found)} anagrams found for {command} in {(end - start) // NANO_MILLI_FACTOR}ms')
-            print(found)
+            print(', '.join(found))
         else:
             print(f'No anagrams fround for {command}')
         print('AnagramFinder>', end='')
