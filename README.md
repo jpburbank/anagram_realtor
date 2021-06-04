@@ -17,3 +17,6 @@ Your environment may not need use the command "python3", but just "python"
 
 ## Complexity
 I used this type of solution for the first attempt as the instructions say to do a "quick and dirty" approach first. Consequently the time complexity for finding anagrams in this solution is O(N*M). Where N is the amount of words in the dictionary and M is the maximum character length a word in the dictionary or the user provided word.
+
+## Source control
+This assignment can be found as a public repo on Github, with the URL https://github.com/jpburbank/anagram_realtor. This version is the branch first_version. The .git files have been removed from the tarred submission.
